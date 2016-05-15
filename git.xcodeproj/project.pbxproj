@@ -15,8 +15,8 @@
 		4E80DB581CE87A3700EE70D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E80DB561CE87A3700EE70D7 /* LaunchScreen.storyboard */; };
 		4E80DB631CE87A3700EE70D7 /* gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80DB621CE87A3700EE70D7 /* gitTests.m */; };
 		4E80DB6E1CE87A3700EE70D7 /* gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80DB6D1CE87A3700EE70D7 /* gitUITests.m */; };
-		4E80DB801CE87BCA00EE70D7 /* aaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80DB7F1CE87BCA00EE70D7 /* aaViewController.m */; };
 		4E80DB831CE87BD100EE70D7 /* bbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80DB821CE87BD100EE70D7 /* bbViewController.m */; };
+		4E80DB871CE8C89900EE70D7 /* ccViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80DB861CE8C89900EE70D7 /* ccViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		4E80DB691CE87A3700EE70D7 /* gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E80DB6D1CE87A3700EE70D7 /* gitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitUITests.m; sourceTree = "<group>"; };
 		4E80DB6F1CE87A3700EE70D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E80DB7E1CE87BCA00EE70D7 /* aaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaViewController.h; sourceTree = "<group>"; };
-		4E80DB7F1CE87BCA00EE70D7 /* aaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaViewController.m; sourceTree = "<group>"; };
 		4E80DB811CE87BD100EE70D7 /* bbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbViewController.h; sourceTree = "<group>"; };
 		4E80DB821CE87BD100EE70D7 /* bbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bbViewController.m; sourceTree = "<group>"; };
+		4E80DB851CE8C89900EE70D7 /* ccViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccViewController.h; sourceTree = "<group>"; };
+		4E80DB861CE8C89900EE70D7 /* ccViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 		4E80DB471CE87A3600EE70D7 /* git */ = {
 			isa = PBXGroup;
 			children = (
+				4E80DB841CE8C88800EE70D7 /* cc */,
 				4E80DB7D1CE87BB900EE70D7 /* bb */,
-				4E80DB7C1CE87B6E00EE70D7 /* aa */,
 				4E80DB4B1CE87A3600EE70D7 /* AppDelegate.h */,
 				4E80DB4C1CE87A3600EE70D7 /* AppDelegate.m */,
 				4E80DB4E1CE87A3600EE70D7 /* ViewController.h */,
@@ -148,15 +148,6 @@
 			path = gitUITests;
 			sourceTree = "<group>";
 		};
-		4E80DB7C1CE87B6E00EE70D7 /* aa */ = {
-			isa = PBXGroup;
-			children = (
-				4E80DB7E1CE87BCA00EE70D7 /* aaViewController.h */,
-				4E80DB7F1CE87BCA00EE70D7 /* aaViewController.m */,
-			);
-			name = aa;
-			sourceTree = "<group>";
-		};
 		4E80DB7D1CE87BB900EE70D7 /* bb */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +155,15 @@
 				4E80DB821CE87BD100EE70D7 /* bbViewController.m */,
 			);
 			path = bb;
+			sourceTree = "<group>";
+		};
+		4E80DB841CE8C88800EE70D7 /* cc */ = {
+			isa = PBXGroup;
+			children = (
+				4E80DB851CE8C89900EE70D7 /* ccViewController.h */,
+				4E80DB861CE8C89900EE70D7 /* ccViewController.m */,
+			);
+			path = cc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,10 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E80DB871CE8C89900EE70D7 /* ccViewController.m in Sources */,
 				4E80DB501CE87A3600EE70D7 /* ViewController.m in Sources */,
 				4E80DB4D1CE87A3600EE70D7 /* AppDelegate.m in Sources */,
 				4E80DB831CE87BD100EE70D7 /* bbViewController.m in Sources */,
-				4E80DB801CE87BCA00EE70D7 /* aaViewController.m in Sources */,
 				4E80DB4A1CE87A3600EE70D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +526,7 @@
 				4E80DB741CE87A3700EE70D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E80DB751CE87A3700EE70D7 /* Build configuration list for PBXNativeTarget "gitTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				4E80DB771CE87A3700EE70D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E80DB781CE87A3700EE70D7 /* Build configuration list for PBXNativeTarget "gitUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				4E80DB7A1CE87A3700EE70D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

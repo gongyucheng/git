@@ -1,5 +1,5 @@
 //
-//  aaViewController.h
+//  ccViewController.h
 //  git
 //
 //  Created by 宫玉成 on 16/5/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface aaViewController : UIViewController
+@interface ccViewController : UIViewController
 
 @end

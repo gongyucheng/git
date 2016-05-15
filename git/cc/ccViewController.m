@@ -1,18 +1,18 @@
 //
-//  aaViewController.m
+//  ccViewController.m
 //  git
 //
 //  Created by 宫玉成 on 16/5/15.
 //  Copyright © 2016年 宫玉成. All rights reserved.
 //
 
-#import "aaViewController.h"
+#import "ccViewController.h"
 
-@interface aaViewController ()
+@interface ccViewController ()
 
 @end
 
-@implementation aaViewController
+@implementation ccViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
